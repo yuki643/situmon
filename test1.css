@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 479px) {
+pote {
+ width: 100%;
+ height: 100%;
+}
+haikei {
+ width: 150%;
+}
+
+}
+
+
+/*共通*/
+html {
+ font-size: 100%;
+}
+
+
+body {
+ color: #000;
+ font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+ font-size: 14px;
+ font-weight: 500;
+ display: block;
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+ max-width: 100%;
+}
+
+/*共通*/
+
+ .haikei {
+   background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
+   background-size: cover;
+   height: 600px;
+   width: 100%;
+ }
+ 
+ .pote {
+   display: block;
+    height: 20px;
+    width: auto;
+    margin-left: 30px;
+}
+ .main-nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+ }
+ 
+ .main-nav a {
+  text-decoration: none;
+  display: block;
+ }
+ 
+ 
+ .span1 {
+  display: flex;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  margin-right: 45px;
+  padiing: 0 0 100px 100px
+
+ }
+ 
+ .span2 {
+  display: flex;
+  font-size: 5px;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  margin-left: 19px;
+
+ }
+ 
+ .span3 {
+  display: flex;
+  font-size: 5px;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  margin-left: -10px;
+ }
+ 
+ .span4 {
+  display: flex;
+  font-size: 5px;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  margin-left: 10px;
+ }
+ 
+ .span5 {
+  background-color:  #F79214;
+  color: white;
+  padding: 17px;
+  border-radius: 38px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  height: 40px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+ }
+ 
+ .page-header {
+  display: flex;
+  justify-content: space-between;
+
+ }
+ 
+ .midasi{
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 38%;
+  
+ }
+ 
+ .article {
+  display: flex;
+  margin: 5px 0% 30px 15%;
+  
+ }
+ 
+ 
+ 
+ .rogo2 {
+  margin-right: 8px;
+  margin-left: 8px;
+ }
+ 
+ 
+.sabu a {
+ text-decoration: none;
+}
+ 
+.sabu {
+  display: flex;
+  font-weight: 650;
+  
+}
+
+.span6 {
+ display: block;
+ display: flex;
+ background-color: #F79214;
+  color: white;
+  padding: 25px;
+  border-radius: 38px;
+  text-decoration: none;
+  font-size: 15px;
+  justify-content: center;
+  margin-left: 195px;
+  width: 255px;
+}
+
+.span7 {
+ display: block;
+ display: flex;
+ background-color: white;
+ color: #000;
+ border-radius: 30px;
+ border: 1px solid silver;
+ padding: 20px;
+ width: 176px;
+ justify-content: center;
+ font-size: 15px;
+ width: 130px;
+ margin-left: 15px;
+}
+
+.komoji {
+ color: #A2A2A4;
+ font-size: 12px;
+ padding-left: 195px;
+}
+
+
+
+.orenji {
+ display: block;
+ background-color:  #F79214;
+ padding: 45px 0;
+ margin: 0;
+ box-sizing: border-box;
+ word-break: break-all;
+}
+
+.nakano {
+ max-width: 1140px;
+ padding-left: 50px;
+ padding-right: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ position: relative;
+ align-items: center;
+ display: flex;
+ justify-content: space-between;
+}
+
+.setumei {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 0;
+ align-items: flex-start;
+ margin-bottom: 0;
+ width: 53%;
+ margin: 0;
+ padding: 0;
+}
+
+
+
+.hhh {
+ font-size: 40px;
+ width: 100%;
+ letter-spacing: 1px;
+ color:  #fff;
+ text-align: left;
+ font-weight: 700;
+ line-height: 74px;
+}
+
+.span8 {
+ font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+}
+ 
+ 
+
+
+.wato {
+ display: none;
+ font-size: 40px;
+ letter-spacing: 1px;
+ 
+}
+
+.setu {
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 26px;
+ margin-top: 15px;
+ color: #fff;
+ text-align: left;
+ display: inline-block;
+}
+
+.bocon {
+ width: 250px;
+}
+
+.bo {
+ align-items: center;
+ border: none;
+ border-radius: 38px;
+ flex-direction: column;
+ display: flex;
+ font-size: 16px;
+ font-weight: 700;
+ height: 64px;
+ justify-content: center;
+ text-decoration: none;
+ text-align: center;
+ width: 100%;
+ color: #F79214 !important;
+ background-color: #fff;
+}
+
+.span9 {
+ font-family: 'Lato', sans-serif;
+ font-size: 24px;
+ font-weight: 700;
+ line-height: 32px;
+}
+
+.span10 {
+ font-size: 12px;
+ line-height: 18px;
+}
+
+
